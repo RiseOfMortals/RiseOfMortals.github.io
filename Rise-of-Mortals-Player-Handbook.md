@@ -2265,7 +2265,7 @@ Any race can be born with one of these — a mark that runs deeper than blood. A
 
 **Manifested** — their very essence is saturated with magic, showing through in even the simplest of actions. These beings seem woven from energy — and it answers their will faster than anyone else's. The mana in their body is so abundant it overrides their racial nature.
 
-- Manifested start with **+3 starting mana**, and regain **double** the mana when meditating. Any source of mana drain effects Manifested **three times stronger** then another creatures.
+- Manifested start with **+3 starting mana**, and regain **double** the mana when meditating. Than Manifested affected by mana drain, they lose **three times** more mana, then another creatures.
 
 **Flame Forged** — shaped by flame, they carry an echo of the departed god of fire. Their strength is in heat, their spirit is in flame — and every step they take leaves only ash behind.
 
