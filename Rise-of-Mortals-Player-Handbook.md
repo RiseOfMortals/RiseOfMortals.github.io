@@ -2944,7 +2944,7 @@ A talent tree focused on unarmed, hand-to-hand combat.
 
 **1. Mighty blows** — +1d10 to checks made to attack or intercept using your body — and your unarmed strikes lose the *light* trait.
 
-**2. Beat down** — your unarmed strikes may carry one trait of your choice: *brutal*, *forceful*, *deadly* or *armor breaker*.
+**2. Beat down** — each time you make an unarmed strike, you may give it one trait of your choice: *brutal*, *forceful*, *deadly* or *armor breaker*.
 
 **3. Master your body** — you gain a **fourth move**, usable only to:
 
@@ -3041,7 +3041,7 @@ Masters of the blade, wielding legendary techniques with explosive speed and pow
 
 - *Special prerequisite: only when attacking with a tanto, arming sword, falchion or war sword.*
 
-**1. Flash step** — when making a hostile move, you may spend 2 moves instead of 1 to perform a flash step: **teleport up to double your movement speed** before the attack, and gain +2d4 to the roll. You may also flash step after a successful interception, for one move.
+**1. Flash step** — when making a hostile move, you may spend 2 moves instead of 1 to perform a flash step: **teleport up to double your movement speed** before the attack, and gain +2d4 to the roll. You may also flash step after a successful interception by spending 1 more move — this grants the teleport only, with no attack and no bonus dice.
 
 **2. Perfect cut** — attacking out of a flash step, you may trade one or both of its d4s for benefits:
 
@@ -3050,7 +3050,7 @@ Masters of the blade, wielding legendary techniques with explosive speed and pow
 - you teleport 10 meters after the attack (1 die);
 - the attack cannot be intercepted or guarded (1 die).
 
-**3. Crestwater slash** — once per battle, a flash step may be performed **3 times consecutively**.
+**3. Crestwater slash** — once per battle, when you pay for a flash step, you perform it **three times in a row**: three teleports, each followed by its own attack with its own +2d4 — and *perfect cut* may be applied to each separately.
 
 ##### The Pitcher
 
@@ -3060,7 +3060,7 @@ Masters of thrown weapons — deadly, and creative about it.
 
 - *Special prerequisite: only while using a throwing weapon.*
 
-**1. Expert's mark** — after your thrown ranged attack hits a creature, it is **marked** until the end of the next round: any attack targeting it may consume the mark for **+1d8** to the roll. Also, drawing a small weapon from a *bundle* no longer costs you a move.
+**1. Expert's mark** — after your thrown ranged attack hits a creature, it is **marked** until the end of the next round: when any attack targets it, you may consume the mark to grant that attack **+1d8**. Also, drawing a small weapon from a *bundle* no longer costs you a move.
 
 **2. Ricochet** — if your thrown ranged attack misses, you may immediately bounce it into another creature within 5 meters of the original target. If it *hits*, you may instead choose to deal 0 damage and still ricochet to a new target within 5 meters. Either way, the new attack is a fresh roll at **−1 success**.
 
@@ -3115,7 +3115,7 @@ Bloodletters are brutal and efficient warriors, achieving great feats in battle 
 
 **2. Bloodlust** — when a creature in your line of sight takes **bleed damage**, you may move up to your movement speed towards it. This movement cannot be intercepted.
 
-**3. Exsanguinate** — once per battle, when you damage a **heavily wounded** creature with at least 1 rank of bleed, note its current bleed ranks: your next attack to hit before the end of the next round inflicts **that much bleed** on its target.
+**3. Exsanguinate** — once per battle, when you damage a heavily wounded creature with at least 1 rank of bleed, note its current bleed ranks: your next attack to hit before the end of the next round inflicts **that much bleed** on whatever creature it strikes.
 
 ##### The Juggernaut
 
@@ -3162,7 +3162,7 @@ Sharpshooters and creative geniuses, chasing the perfect balance between the mec
   - 2 exploding stars — everyone taking the fire damage is knocked prone;
   - 2 sticky stars — the target also loses 1 move on its next turn.
 
-##### The Marksmen
+##### The Marksman
 
 *Sharpshooter, Striker*
 
@@ -3174,7 +3174,7 @@ Archers — fast, accurate, and able to target multiple foes with ease.
 
 **2. Arching shot** — your ranged attacks ignore the evasion bonus of **solid cover** (line of sight still required). And you may take −1 success on a ranged attack roll to give it *armor breaker* and **double its maximum range**.
 
-**3. Triple strike** — once per combat, *multi-shot* may target the **same enemy** — and its attacks no longer gain the *light* trait, ever.
+**3. Triple strike** — your *multi-shot* attacks no longer gain the *light* trait. And once per combat, *multi-shot* may target the **same enemy** with all its attacks.
 
 ##### The Virtuoso
 
@@ -3190,7 +3190,7 @@ A master of self-defense and non-lethal strikes, practicing a complex fighting s
 
 **3. Finale** — every hostile move made through *entrance*, and every free move from *chorus*, earns you a stack of **finale**. Once per combat, when a round ends, spend all your stacks on one ending:
 
-- **Tragedy:** you take damage equal to your finale stacks. Your next hostile move gains that many **d10s** — and this one attack *can* reduce a creature to 0 resilience.
+- **Tragedy:** you take damage equal to your finale stacks — this damage cannot be reduced or prevented in any way. Your next hostile move gains that many **d10s** — and this one attack can reduce a creature to 0 resilience.
 - **Hopeful:** for a number of rounds equal to your stacks, you regain 1 unphased at the start of each of your turns.
 - **Inspiring:** all allies who can see or hear you gain bonus movement equal to your stacks until the end of the next round, and +1d12 to their next check.
 - **Terrifying:** all enemies who can see or hear you are **intimidated** by you for half your stacks in rounds (rounded up).
@@ -3213,7 +3213,7 @@ The finest mechanics of the modern age created something magnificent in the hand
 - the attack ignores cover;
 - the attack gains the *explosive* enchantment.
 
-**3. Booming terror** — once per combat, when your hand mortar or siege weapon damages creatures, every one of them is **intimidated** by you (test score 3 to remove), loses **5 unphased** and **1 resilience** — plus 2 more of each per quality rank of your weapon above standard.
+**3. Booming terror** — once per combat, when your hand mortar or siege weapon damages creatures, you may declare a booming terror: every damaged creature is **intimidated** by you (test score 3 to remove), loses **5 unphased** and **1 resilience** — plus 2 more of each per quality rank of your weapon above standard.
 
 ##### The Impaler
 
