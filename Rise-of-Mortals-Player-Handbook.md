@@ -3954,7 +3954,7 @@ Trap mages focus on canceling other magic users — preventing spells from ever 
 
 **1. Spell trap** — you learn a beginner spell, **spell trap** *(2 mana, 1 move, 1 minute)*: choose a 1×1 meter square you can see within 20 meters — it is marked by an invisible trap. If a **magical ability** affects a creature touching that space, its effects are reflected back onto the original user (using the same roll, if there was one). The trap then ends.
 
-- *A magical ability: anything that uses mana, or was acquired through one of the «immortal» enemy subtypes.*
+- *A magical ability: anything that uses mana, or was acquired through one of the "immortal" enemy subtypes.*
 
 **2. Mobile traps** — at the start of your turn, pay 1 mana to move an active spell trap to any visible point within 30 meters of you.
 
