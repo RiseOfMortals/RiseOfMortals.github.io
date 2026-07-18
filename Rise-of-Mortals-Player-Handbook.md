@@ -3248,7 +3248,7 @@ The most destructive martial art still practiced in modern times — its users r
 
 **Stance — Typhon:** you may add the *slow* trait to all your melee attacks.
 
-**1. Lightning** — if you wound up a slow attack on your last turn, your movement speed is **doubled**. And whenever you wind up, you may deal 2 armor destroying damage to every creature within your weapon's melee reach.
+**1. Lightning** — if you wound up a slow attack on your last turn, your movement speed is **doubled until the end of your next turn**. And whenever you wind up, you may deal 2 armor destroying damage to every creature within your weapon's melee reach.
 
 **2. Thunder** — when you attack with the *slow* trait, every creature in a 5-meter radius **behind the target** takes 3 damage.
 
@@ -3260,13 +3260,13 @@ The most destructive martial art still practiced in modern times — its users r
 
 Focused on evading attacks and redirecting harm — favored by pacifists, and by the extremely battle-hungry.
 
-**Stance — Whirlwind:** when you are in this stance and a round starts, you may pull one hostile creature 5 meters horizontally closer to you.
+**Stance — Whirlwind:** when you enter this stance, and whenever a round starts while you are in it, you may pull one hostile creature 5 meters horizontally closer to you.
 
 **1. Breath** — while in this stance, +1 evasion against creatures you forcefully moved this round.
 
 **2. Gale** — you release the gathered energy in a single strike. Gale becomes available after using *breath*, and triggers when you land an unarmed strike or intercept an attack: every enemy within 3 meters is pushed back a number of meters equal to the **dice you rolled** for the attack or interception, and the creature you hit or intercepted becomes **weakened** until the end of its next turn. Exiting the stance resets the sequence — *breath* first, then *gale*.
 
-**3. Breeze** — after using *breath*, your senses sharpen: for the rest of the battle (or until you exit the stance), whenever an enemy **misses** you, you may counter for X armor destroying damage — X being your speed or power dice count, whichever is higher. This ends early when you use *gale* — but from now on, creatures pushed by gale also take 2 armor destroying damage.
+**3. Breeze** — after using *breath*, your senses sharpen: for the rest of the battle (or until you exit the stance), whenever an enemy **misses** you, you may counter for X armor destroying damage — X being your speed or power dice count, whichever is higher. This ends early when you use *gale*. Also, creatures pushed by your gale now take 2 armor destroying damage.
 
 ##### The Sand Style
 
@@ -3298,7 +3298,7 @@ Also called the "gaian style" — famous for its abnormal reach, and for practit
 - **Evade:** costs 1 less move, and you deal 1 damage to everything within your reach.
 - **Intercept:** costs 1 less move, and gains +2d6.
 
-**3. Summit splitter** — you may charge an attack **multiple times**, stacking the reach (up to 5 charges' worth). The charges bring milestones:
+**3. Summit splitter** — you may charge an attack **any number of times**, stacking the reach increase — though reach stops growing after the 5th charge. The charges bring milestones:
 
 - **2+ charges:** the strike deals 2 armor destroyer damage to the target *before* the roll to hit.
 - **4+ charges:** the strike hits every creature in a straight line within its reach.
@@ -3335,7 +3335,7 @@ Deadly, accurate and fast — renowned for elegant, delicate strikes and a speci
 
 **2. Rose cut** — while *daisy step* is active, ending any instance of movement within 1 meter of a creature lets you give it **1 bleed rank**.
 
-**3. Blossoming blade** — when a round ends, you may spend 2 moves to attack **every thorned creature within 10 meters**: the attack gains a d6 for every bleed rank on the target. After it hits, the target's bleed clears completely.
+**3. Blossoming blade** — when a round ends, you may spend 2 moves to attack **every thorned creature within 10 meters**: roll separately against each target, adding a d6 for every bleed rank that target has. Each target hit then clears all its bleed.
 
 ##### The Wildfire Style
 
@@ -3427,13 +3427,11 @@ Patience is a virtue, and Qilin practitioners take it to heart: they draw power 
 
 **2. Power storage** — when you end your turn, you may spend 3 mana for 1 rank of stockpile.
 
-**3. Teal surge** — spend 1 move to wind up your entire stockpile and unleash it in one devastating strike:
+**3. Teal surge** — spend 1 move to wind up your entire stockpile, as with any *slow* weapon — the strike must be the **first move of your next round**, or you exit the stance. The strike:
 
-- its reach equals the stockpile spent;
-- every rank grants **+1d12** to the roll;
-- the attack is based on no attribute, and carries *armor destroyer*, *forceful*, *brutal* and *slow*.
-
-If the first move of your next round isn't this attack — you exit the stance.
+- has reach equal to the stockpile spent;
+- gains **+1d12** per rank;
+- is based on no attribute, and carries *armor destroyer*, *forceful*, *brutal* and *slow*.
 
 ##### The Demiurge Style
 
@@ -3457,9 +3455,9 @@ When the old shadow style fell to a rogue mage, it was reformed — into a style
 
 **Stance — Shade:** when your turn starts, you may immediately evade, or clear one negative condition on you. Using this forbids you from making hostile moves and from starting, continuing or finishing a spell this turn.
 
-**1. Simple moon** — when you evade, you can enter a stance until you move\are moved\make a hostile move. While in this stance the first time an enemy enters your reach, you may immediately attack them. This attack gains *armor destroyer*.
+**1. Simple moon** — when you evade, you may assume the **simple moon guard**, held until you move, are moved, or make a hostile move. While holding it, the first time an enemy enters your reach, you may immediately attack it — this attack gains *armor destroyer*.
 
-**2. Dark horizon** — while in *simple moon*, if you are targeted by — or caught in the area of — a spell or mana-spending ability, you may exit the *simple moon* and **cancel the triggering spell\ability**. You take 1 damage and become weakened until the start of your next turn.
+**2. Dark horizon** — while in *simple moon guard*, if you are targeted by — or caught in the area of — a spell or mana-spending ability, you may exit the *simple moon guard* and **cancel the triggering spell or ability**. You take 1 damage and become weakened until the start of your next turn.
 
 **3. Quick midnight** — attacking through *simple moon*, or using *dark horizon*, earns you a charge of **midnight**. Spend a charge when attacking to strike at the creature's **base evasion**, ignoring every increase and decrease — or spend it on a hit to **end one non-permanent effect** on the target.
 
@@ -3520,7 +3518,7 @@ A web of invisible strings to restrict the enemy's movements — slowly creeping
 
 **Stance — Web:** on entering, choose a point you can see within 30 meters: it and the 3-meter radius around it become your **spider nest** until you exit the stance. And at the end of every round, you may place a **web token** on a creature you can see.
 
-**1. Yarn spinner** — you gain a move, **connect strings**: on your turn, place 2 web tokens on a creature in line of sight. It can also be used as a **1-move interception** against a creature within 15 meters of your nest — pulling it to the nest's center. A creature pulled into the nest, or ending its turn there, is **restrained** for as long as it carries at least 1 token. Escaping tokens: *change the scene* and a power check — every success removes 2 tokens (0 successes still remove 1).
+**1. Yarn spinner** — you gain a move, **connect strings**: on your turn, place 2 web tokens on a creature in line of sight. It can also be used as a **1-move interception** against a creature within 15 meters of **any of your nests** — pulling it to that nest's center. A creature pulled into the nest, or ending its turn there, is **restrained** for as long as it carries at least 1 token. Escaping tokens: *change the scene* and a power check — every success removes 2 tokens (0 successes still remove 1).
 
 **2. Trapper of prey** — when *connect strings* pulls a creature towards your nest, you may pull up to **3 tokened creatures** 5 meters closer — and consume any number of their tokens for +5 meters of pull per token.
 
@@ -3550,7 +3548,7 @@ Born when a monastery sworn never to lift a weapon was attacked — a style of d
 
 **1. Harmless retribution** — when a creature makes a hostile move against you and you neither guard nor intercept, it feels **intense shame**: −1 to its next resist roll within a minute, and its next hostile move within a minute costs you one less move to intercept.
 
-**2. Shameful stalemate** — after a creature damages you or lands a condition on you, you may force it into a **willpower resist check** against your charisma or willpower dice count (+1 if your chosen attribute is a d10 or above). On a failure, its heart isn't in the fight: **−2 to all hostile moves** until the end of its next turn. Once a creature fails this, it is immune for the rest of the fight.
+**2. Shameful stalemate** — after a creature damages you or lands a condition on you, you may force it into a **willpower resist check** against your charisma or willpower dice count (+1 if your chosen attribute is a d10 or above). On a failure, its heart isn't in the fight: **−2 successes on all hostile moves** until the end of its next turn. Once a creature fails this, it is immune for the rest of the fight.
 
 **3. Arm breaking pacifism** — when you intercept a move, you may **destroy one piece of equipment** the target carries. Mastercraft and legendary items refuse to break — they are instead knocked off, landing harmlessly at a point of your choice within 20 meters.
 
