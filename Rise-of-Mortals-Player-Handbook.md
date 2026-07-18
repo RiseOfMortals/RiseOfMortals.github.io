@@ -2403,7 +2403,7 @@ Movement caused by this talent cannot be intercepted and ignores the effects of 
 **3. Crushing tactics** — once per battle, at the start of any round, you may shout the command word for the secret maneuver you went over with your team before the fight:
 
 - **Rushdown:** all allies within 15 meters of you immediately stride.
-- **Regroup:** you and all allies may move up to half your movement to a single point you choose.
+- **Regroup:** you and all allies may each move up to half your own movement speed to a single point you choose.
 - **Tactical respite:** all allies immediately clear one negative condition affecting them.
 
 ##### The Bodyguard
@@ -2414,7 +2414,7 @@ Professionals, royal knights, or the right hand of a crime boss — these indivi
 
 **1. Safe keeping** — you gain a new move: **defend**. Choose an ally within your reach — they become your **ward**. Until the end of your next turn, or until they exit your reach:
 
-- You become the target of every attack, spell and single-target ability aimed at your ward.
+- You become the target of every single-target attack, spell or ability aimed at your ward.
 - Nothing can intercept your ward's actions.
 - When your ward moves voluntarily, you move with them, keeping them within your reach at all times. This movement costs you no move — and can exceed your movement speed, as long as the ward stays in reach.
 
@@ -2472,7 +2472,7 @@ The raider is a cruel and frightening warrior, taking every opportunity to strik
 
 Some are naturally talented in the art of war — but learning from others can turn even the greenest warrior into a fearsome fighter.
 
-**1. Watch and learn** — when another character makes a move, you may spend a move to **examine** it. You gain +1 success when performing a move of the same type as one you examined in the last minute (grappling, tripping, a ranged attack). To examine an attack, you must share at least one specific weapon trait with it. Only one move can be examined at a time — examining a new one drops the old.
+**1. Watch and learn** — when another character makes a move, you may spend a move to **examine** it. You gain +1 success when performing a move of the same type as one you examined in the last minute (grappling, tripping, a ranged attack). To examine an attack, your weapon must share at least one trait with the weapon used in it. Only one move can be examined at a time — examining a new one drops the old.
 
 **2. Gifted student** — the first examine of each combat costs you no move.
 
@@ -2488,7 +2488,7 @@ Warlords fight many enemies at once, dominating battlefields with overwhelming p
 
 **1. Honor in battle** — while 2 or more hostile creatures are within your melee weapon's effective reach, you gain +1 evasion and −1 damage reduction.
 
-**2. Sweeping strike** — *whirlwind* costs you **2 moves** if it is the first move of your turn, and every creature you hit with it can be pushed 3 meters back.
+**2. Sweeping strike** — *whirlwind* costs you **2 moves** if it is the first move of your turn, and you may push each creature you hit with it 3 meters back.
 
 **3. Storm of blade and hammer** — once per combat, add +2d6 to a whirlwind attack roll: every creature it hits becomes **weakened** until the end of your next turn.
 
@@ -2615,7 +2615,7 @@ Cunning and unpredictable — no plan survives an encounter with an adept improv
 - You may use a held object, or a person within 1 meter, as a **raised shield** with a defense value of 1, redirecting damage to it by the normal shield rules. Objects break on a direct hit, unless the Qg says otherwise.
 - When you start your turn prone, taunted or intimidated, you may **transfer** one of those conditions to a creature within 5 meters.
 
-**2. Adapt** — your improvised weapons may carry one trait of your choice: *brutal*, *deadly*, *defensive* or *thrusting*. And once per day, you *randomly find exactly what you need*: gain a common item of your choice without spending an inventory point (in combat — via *change the scene*). The item cannot cost more than 2 points; if it is a weapon, it is of poor quality.
+**2. Adapt** — each time you use an improvised weapon, you may give it one trait of your choice: *brutal*, *deadly*, *defensive* or *thrusting*. And once per day, you *randomly find exactly what you need*: gain a common item of your choice without spending an inventory point (in combat — via *change the scene*). The item cannot cost more than 2 points; if it is a weapon, it is of poor quality.
 
 **3. Overcome** *(2 points)* — once per round, on your turn, you may *change the scene* without spending a move. And you gain +1 success on all resist rolls.
 
@@ -2651,7 +2651,7 @@ Masters of battlefield awareness, proficient in turning cover and environment to
 
 Warriors who fight with two weapons at once — terrifying on offense and defense alike.
 
-**1. Weapon flourish** — when you attack with one weapon while holding a second, you may make a **free hostile move** with the second one. After its hit is confirmed, that attack's base damage drops to 1.
+**1. Weapon flourish** — when you attack with one weapon while holding a second, you may make a free hostile move with the second one. Roll it as normal — but after its hit is confirmed, the free attack's base damage drops to 1.
 
 **2. Dual wielding expert** — you can now pair **any combination** of medium and short reach weapons — and dual wield **whips and revolvers**. If your *weapon flourish* attack uses a short reach weapon, you may *guard* once for free before your next turn.
 
@@ -2800,7 +2800,7 @@ Defenders who use mana as a source of life, empowering their body and spirit.
 
 **2. Retaliation of thorns** — when a creature reduces your mana, it takes **armor destroying damage** equal to your charisma or intellect dice count (your choice, made when you gain this talent). Reducing your own mana never hurts you.
 
-**3. Touch of Teragamalt** — you gain a new move, **nourish** *(2 moves)*: reduce your mana by any amount to heal a creature within 10 meters for that much **unphased**.
+**3. Touch of Teragamalt** — you gain a new move, **nourish** *(2 moves)*: reduce your mana by any amount to heal another creature within 10 meters for that much **unphased**.
 
 ##### The Breaker
 
