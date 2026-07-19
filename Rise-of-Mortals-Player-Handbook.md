@@ -669,6 +669,8 @@ Common activities and their focus:
 
 ## Combat
 
+![Combat](images/Combat.png)
+
 This chapter will cover:
 
 - How combat works: start and end
