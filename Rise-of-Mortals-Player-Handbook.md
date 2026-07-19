@@ -4224,9 +4224,11 @@ Those who dedicate their life to one of the new gods — working, preaching, adv
 
 A holy mage of talismans — consecrating the ground in preparation for powerful rituals.
 
-**1. Protective seal** — when a round starts, pay 2 mana to place a **holy seal** in a free space within 2 meters of you (or place one as a move, free of mana). When a round ends, you may extinguish existing seals within 10 meters of a creature to cast a spell on them **without paying mana**:
+**1. Protective seal** — when a round starts, pay 2 mana to place a **holy seal** in a free space within 2 meters of you (or place one as a move, free of mana). When a round ends, you may extinguish **all existing seals within 10 meters of a creature** — provided there are at least as many as the spell requires — to cast that spell on them without paying mana:
 
 - *Spirit shield* — 3 seals. *Gravity surge* — 2. *Lesser grit* — 4. *Partial invisibility* — 3. *Innocent fog* — 2 (the target counts as the caster).
+
+Every seal in the radius burns, even beyond the spell's requirement.
 
 Spells cast through seals are untouched by *true believer*.
 
@@ -4331,7 +4333,7 @@ Druids of the open sky, drawing power from the wind whipping around them — cho
 
 **2. Windfury** — casting a mobility spell earns you a stack of **fury** — and spending altitude for movement earns half the altitude spent (rounded up). Ending your turn, you may release all fury as a **whirlwind** around you, its radius equal to the stacks spent: it stays in place, counts as harsh terrain for everyone else, grants creatures inside +2 evasion against ranged attacks, and lasts until the start of your next turn.
 
-**3. Free bird** — raising your whirlwind, you may push all enemies horizontally until they stand 1 meter outside it — and you regain **1 move and 1 unphased**.
+**3. Free bird** — raising your whirlwind, you may push all enemies horizontally until they stand 1 meter outside it. And every whirlwind you raise restores you **1 move and 1 unphased**.
 
 ##### Nature spell list
 
@@ -4389,8 +4391,6 @@ Hunters are the best at surviving in the wild for long stretches — and can tra
 **2. On the move** — you may switch traveling activities **every hour** — or switch to full speed instead. You only enjoy the benefits of your *current* activity, but camp-enhancing effects keep their listed duration.
 
 **3. Terrain expert** — the peak of blending in and reading the land. The *tracking* activity upgrades for you: the test score drops by 1 for every **3 creatures** in the tracked group.
-
-- *An additional resting benefit is still in development.*
 
 #### The Camper
 
@@ -4496,11 +4496,11 @@ Healers are proficient in medicine and the ways of recovery — mending most wou
 
 Proficiency in trade and money is a valuable skill — especially on the road.
 
-**1. Monetary negotiation** — the first time you *haggle*, you may cut the inventory point cost of **another item** by 1. And your group regains **2 more inventory points** from *acquire connections*.
+**1. Monetary negotiation** — each time you use the *haggle* activity, the first item you buy through it costs 1 less inventory point. And your group regains **2 more inventory points** from *acquire connections*.
 
 **2. Valuable prospects** — every time you or your group uses an item someone haggled for, the user regains **1 inventory point**.
 
-**3. Emergency funds** — you gain a camp activity, **refund** *(1 hour)*: you squeeze extra value from your goods. You or an ally regains **3 inventory points** — but the next time you'd regain points, you get **2 fewer**.
+**3. Emergency funds** — you gain a camp activity, **refund** *(1 hour)*: you squeeze extra value from your goods. You or an ally regains **3 inventory points** — but the next time *you* would regain inventory points, you regain 2 fewer, no matter who took the refund.
 
 **4. Exquisite collections** — choose two common consumables, weapons or shields that cost 1 inventory point: they now cost **0** for you to use or equip (a chosen heater shield takes no inventory; a chosen poison dart is free to produce). You cannot sell items produced this way.
 
@@ -4593,13 +4593,13 @@ Lost when the *partner up* benefits would be lost.
 
 Some form a special bond with beasts, people or otherworldly beings — and the trust and friendship of that bond empowers them.
 
-**1. Companion** *(2 points)* — you gain an **ally**: a strong animal, or another mortal. You set its attribute distribution across the seven attributes: **1d8** / **2d6** / **1d6**/ **1d6**/ **1d4** / **1d4** / **1d4**. You choose its size (1, 2 or 3) on taking this talent.
+**1. Companion** *(4 points)* — you gain an **ally**: a strong animal, or another mortal. You set its attribute distribution across the seven attributes: **1d8** / **2d6** / **1d6**/ **1d6**/ **1d4** / **1d4** / **1d4**. You choose its size (1, 2 or 3) on taking this talent.
 
 Choose a **template**, one **benefit**, and one **feature**:
 
 | Choice       | Options                                                                                                                                                                                                                                                                               |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Template** | **Humanoid** — equips weapons, shields and items (no inventory points of its own, but may hold a weapon+shield, two weapons, a weapon+ammo, or one long reach weapon). **Non-humanoid** — either swims and breathes underwater, *or* its short-reach attacks gain the *bladed* trait. |
+| **Template** | **Humanoid** — equips weapons, shields and items (no inventory points of its own, but may hold a weapon+shield, two weapons, a weapon+ammo, or one long reach weapon). **Non-humanoid** — its attacks have short reach; it either swims and breathes underwater, *or* its attacks gain the *bladed* trait.. |
 | **Benefit**  | wears medium armor · +10 m movement · +1d6 to hostile moves                                                                                                                                                                                                                           |
 | **Feature**  | **Helping hand:** allies within its reach gain +1d6 on their turn's first check. **Protector:** friendly creatures within 1 meter gain −1 damage reduction. **Battle tactics:** it may move 5 meters and attack for 1 move.                                                           |
 
