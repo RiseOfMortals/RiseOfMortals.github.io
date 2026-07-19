@@ -6125,7 +6125,8 @@ You summon- What did you summon? Is that really a servant of God? Even text cann
 
 - *Stats:* Resilience: 99  Evasion: 0   damage reduction: 0  Unphased: 0  Movement: 7 meters Mana: 7 size 7
 - *Attributes:* Power, speed, endurance, will, intellect, charisma, sense: 7d12
-- *Abilities:* **For there shall no man see me, and live:** If this creature is within line of sight of anything, it forces them to become blinded, even if they are immune to the condition. If a target affected by this ability forcibly removes the blind condition and still has the celestial in line of sight they become a **pillar of salt**. 
+- *Abilities:*
+- **For there shall no man see me, and live:** If this creature is within line of sight of anything, it forces them to become blinded, even if they are immune to the condition. If a target affected by this ability forcibly removes the blind condition and still has the celestial in line of sight they become a **pillar of salt**. 
 - **…with twain he covered his face, and with twain he covered his feet, and with twain he did fly:** At the start of its turn the celestial can cover itself, disabling the “For there shall no man see me, and live” ability.
 - **…sun turned to darkness, moon to blood, stars withhold their light — end-times darkening of the sky:** The sun, moon and stars avert their gazes, for their repentance shall last eternal. Darkness falls on the battlefield for it becomes a blind spot of the gods
 - **…whither the spirit was to go, they went…** - Its march eternal, unimpeded by the laws of the gods. The celestial’s movement cannot be changed or modified in any way. It can move wherever it wants, forwards, backwards, up, down, as gravity averts its gaze from it.
@@ -6138,7 +6139,9 @@ The... thing has a number of moves equal to the number of rounds that have passe
 
 - *Stats:* size X, resilience X, evasion 0, damage reduction X, unphased X, movement 0 m, mana X.
 - *Attributes:* power, speed, endurance, willpower, intellect, charisma and sense: **1d2**.
-- *Abilities:* **Petrified** — the pillar of salt's stats are based on the original's, X being each stat before petrification. **Repentance** — the pillar of salt cannot make any moves, as they repent. **Salvation** — if the pillar of salt becomes **Ashen**, they revert back to their original form.
+- *Abilities:* **Petrified** — the pillar of salt's stats are based on the original's, X being each stat before petrification.
+- **Repentance** — the pillar of salt cannot make any moves, as they repent.
+- **Salvation** — if the pillar of salt becomes **Ashen**, they revert back to their original form.
 
 
 ## Character Template
