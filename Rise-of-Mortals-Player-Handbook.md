@@ -6002,4 +6002,4 @@ Bio:
 
 **First beta tester and player of the system:** WishToBecomeBulletproof
 
-**Other beta testers:** Oren Eizenshtein, Alon levi, Offer eliaho, Liron, Elad, Shayen, Amir first, Nadav solomon.
+**Other beta testers:** Oren Eizenshtein, Alon Levi, Ofer Eliahou Schttner, Liron, Elad, Shayen, DisguisedDuck, Nadav Solomon.
