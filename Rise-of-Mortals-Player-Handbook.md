@@ -6000,6 +6000,6 @@ Bio:
 
 **Co-creator and head designer:** AlexisFex
 
-**First beta tester and player of the system:** WishToBecomeBulletproof
+**First beta tester and player of the system:** GloryMyrr
 
-**Other beta testers:** Oren Eizenshtein, Alon Levi, Ofer Eliahou Schttner, Liron, Elad, Shayen, DisguisedDuck, Nadav Solomon.
+**Other beta testers:** Rokt12, Alon Levi, Ofer Eliahou Schttner, Liron, Turquiseapple, Shayen, DisguisedDuck, Nadav Solomon.
